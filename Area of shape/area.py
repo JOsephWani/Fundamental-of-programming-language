@@ -1,20 +1,22 @@
 import math
+# defining the area of traingle
 def area_triangle():
     base=int(input("Enter the base of the triangle: "))
     height=int(input("Enter the height of the triangle: "))
     area=0.5*base*height
     print('The are of the triangle is: ',area)
-    
+ # defining the are of circle   
 def area_circle():
     radius=float(input("Enter the radius: "))
     area=math.pi*radius*radius
     print("The area of the cirle is: ", area)
-
+ # defining the are of square
 def area_square():
     length=float(input("Enter the length of the square: "))
     area=length*length
     print('The area of squire is: ',area)
-    
+    # defining the user manual
+
 def user_manual():
     print('User Manual.')
     print("""
